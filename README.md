@@ -1,6 +1,8 @@
 # subflow
 Paste stackoverflow results directly into Sublime text.
 
+![Subflow Demo](https://i.imgur.com/OhNMSAg.gif)
+
 The project is based on [howdoi](https://github.com/gleitz/howdoi) and [sublime-howdoi-direct-paste](https://github.com/azac/sublime-howdoi-direct-paste).
 
 #### Installation
