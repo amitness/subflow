@@ -15,7 +15,6 @@ class SubFlowCommand(sublime_plugin.TextCommand):
         else:
             lang = "in " + self.get_syntax()
             cont = cont + lang
-            print(cont)
             p = subprocess.Popen("howdoi " + cont,
                                  stdout=subprocess.PIPE,
                                  stderr=subprocess.PIPE,
