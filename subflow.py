@@ -13,7 +13,8 @@ class SubFlowCommand(sublime_plugin.TextCommand):
         if (len(cont) < 2):
             pass
         else:
-            lang = "in " + self.get_syntax()
+            lang = " in " + self.get_syntax()
+            cont = cont.strip()
             cont = cont + lang
             p = subprocess.Popen("howdoi " + cont,
                                  stdout=subprocess.PIPE,
